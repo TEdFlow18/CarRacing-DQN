@@ -71,6 +71,9 @@ class Point:
 
 
 class Spline:
+    """
+    Small class of 4 points together creating a part of the track called a bezier Spline
+    """
     def __init__(self, p1, p2, p3, p4):
         self.p1 = p1
         self.p2 = p2
